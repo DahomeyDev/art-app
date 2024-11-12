@@ -1,0 +1,9 @@
+<h2>Here are all the cool and talented artists</h2>
+
+    <ul>
+        <% @artists.each do |artist| %>
+        <li><%= link_to artist.name, artist %></li><br>
+        <% end %>
+    </ul>
+
+# The index.erb file displays a list of all the artists in the database.
